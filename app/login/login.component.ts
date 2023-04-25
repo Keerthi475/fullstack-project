@@ -12,11 +12,11 @@ export class LoginComponent implements OnInit{
   password='';
   invalidLogin=false;
   loggedIn=false;
-//  emessage: '' = "";
+
 
    constructor(private router: Router,
      private loginservice: AuthenticationService){
-//      this.loggedIn=false;
+      this.loggedIn=false;
      }
       
      ngOnInit() {
